@@ -1,6 +1,6 @@
 import Lab3
 
-print("Test_Lab3")
+print("test_Lab3")
 
 
 def test_bubble_sort_ascending():
