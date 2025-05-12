@@ -23,9 +23,11 @@ def calculate_average_salary():
     average = 0
 
     #add your implementation to calculate here
+    for eachRecord in employee_data:
+        total += eachRecord['salary']
 
-
-    return average
+    average = total/len(employee_data)
+    return round(average, 2)
 
 def get_employees_by_dept(department):
     result = []
